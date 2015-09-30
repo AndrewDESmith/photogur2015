@@ -7,4 +7,7 @@ Rails.application.routes.draw do
 
   get 'pictures/:id' => 'pictures#show', as: "picture"
   # as: "picture" allows us to refer to this route as picture_path (the string is prepended to _path).
+
+  get 'pictures/:id/edit' => 'pictures#edit', as: "edit_picture"
+  patch 'pictures/:id' => 'pictures#update'
 end
