@@ -1,0 +1,27 @@
+body {
+  background-color: black;
+}
+
+a {
+  color: red;
+}
+
+h1 { 
+  color: white;
+  font-family: ‘Metrophobic’, Arial, serif; 
+  font-weight: 400; 
+}
+
+p {
+  color: white;
+}
+
+.artist {
+  color: white;
+}
+
+.title {
+  color: white;
+  font-style: italic;
+}
+
