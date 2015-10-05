@@ -6,10 +6,10 @@ a {
   color: red;
 }
 
-h1 { 
+h1 {
   color: white;
-  font-family: ‘Metrophobic’, Arial, serif; 
-  font-weight: 400; 
+  font-family: ‘Metrophobic’, Arial, serif;
+  font-weight: 400;
 }
 
 p {
@@ -25,3 +25,11 @@ p {
   font-style: italic;
 }
 
+/*
+Other changes to make:
+  1. Make a white border around each photo.
+  2. Make a jQuery window carousel (lightbox?).
+  3. Make a dropdown menu for new/edit/delete (jQuery?).
+  4. Add an option to make the lightbox periodically change (automatic shuffle).
+  5. Add a semi-transparent background using a random photo.
+*/
