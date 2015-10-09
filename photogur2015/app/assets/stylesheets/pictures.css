@@ -8,7 +8,7 @@ a {
 
 h1 {
   color: white;
-  font-family: ‘Metrophobic’, Arial, serif;
+  font-family: Arial, serif;
   font-weight: 400;
 }
 
@@ -17,18 +17,24 @@ p {
 }
 
 .artist {
+  position: absolute;
+  top: 40px;
+  left: 10px;
   color: white;
   font-family: 'Lobster', cursive, serif;
 }
 
 .title {
+  position: absolute;
+  top: 20px;
+  left: 10px;
   color: white;
   font-family: 'Oswald', sans-serif;
 }
 
 /*
 Other changes to make:
-  1. Make a white border around each photo.
+  1. Make a white border around each photo.                                         DONE
   2. Make a jQuery window carousel (lightbox?).
   3. Make a dropdown menu for new/edit/delete (jQuery?).
   4. Add an option to make the lightbox periodically change (automatic shuffle).
@@ -37,6 +43,39 @@ Other changes to make:
 
 img {
   border: 1px solid white;
+}
+
+body {
+   overflow: hidden;
+}
+
+ul {
+  width: 1920px;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  width: 600px;
+  text-align: center;
+  height: 280px;
+  list-style: none;
+  float: left;
+}
+
+ul li:first-child {
+  position: relative;
+  z-index: 3;
+}
+
+ul li:nth-child(2) {
+  position: relative;
+  z-index: 2;
+}
+
+ul li:last-child {
+  position: relative;
+  z-index: 1;
 }
 
 /*
