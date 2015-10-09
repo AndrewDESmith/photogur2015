@@ -42,19 +42,19 @@ p {
   text-shadow: 2px 2px 2px black;
 }
 
-.artist {
+.show-artist {
   position: absolute;
-  top: 75px;
-  left: 20px;
+  top: 82px;
+  left: 28px;
   color: white;
   font-family: 'Dancing Script', cursive, serif;
   text-shadow: 2px 2px 2px black;
 }
 
-.title {
+.show-title {
   position: absolute;
-  top: 50px;
-  left: 20px;
+  top: 58px;
+  left: 28px;
   color: white;
   font-family: 'Oswald', sans-serif;
   text-shadow: 2px 2px 2px black;

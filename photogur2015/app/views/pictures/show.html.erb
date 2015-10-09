@@ -2,5 +2,5 @@
 
 <%= link_to "Back to Pictures", pictures_url %> | <%= link_to "Edit", edit_picture_path(@picture) %> | <%= link_to "Delete", @picture, method: :delete, data: {confirm: "Are you sure that you want to delete this picture?"} %>
 
-<p><div class="title"><%= @picture[:title] %>,</div> <div class="artist"><%= @picture[:artist] %></div></p>
+<p><div class="show-title"><%= @picture[:title] %>,</div> <div class="show-artist"><%= @picture[:artist] %></div></p>
 <img src="<%= @picture[:url] %>" class="show-slide">
