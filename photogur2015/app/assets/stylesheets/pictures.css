@@ -73,10 +73,6 @@ img {
   border: 1px solid white;
 }
 
-/*body {
-   overflow: hidden;
-}*/
-
 input[type=submit] {
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
@@ -109,6 +105,10 @@ input[type=text] {
   position: absolute;
   top: 300;
   left: 0;
+}
+
+.show-slide {
+  margin: 10px;
 }
 
 /*
