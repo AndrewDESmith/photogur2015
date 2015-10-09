@@ -77,6 +77,25 @@ body {
    overflow: hidden;
 }
 
+input[type=submit] {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  background: black;
+  color: white;
+}
+
+input[type=submit]:hover {
+  color: #BBBBBB;
+}
+
+input[type=text] {
+  color: red;
+  font-family: 'Droid Sans';
+  font-size: 14px;
+  width: 320px;
+  height: 20px;
+}
+
 ul {
   width: 1920px;
   padding: 0;
