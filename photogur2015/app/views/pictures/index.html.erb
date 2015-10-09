@@ -6,7 +6,7 @@
 <ul>
   <% @pictures.each do |picture| %>
     <li class="image">
-      <p><div class="title"><%=  picture[:title] %>,</div> <div class="artist"><%= picture[:artist] %></div></p>
+      <p><div class="index-title"><%=  picture[:title] %>,</div> <div class="index-artist"><%= picture[:artist] %></div></p>
       <%= link_to image_tag(picture.url), "/pictures/#{picture.id}" %>
       <!-- image_tag takes in the url property of the picture (the raw url) in order to render the image. -->
     </li>

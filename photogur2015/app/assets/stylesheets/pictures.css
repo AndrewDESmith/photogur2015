@@ -16,20 +16,40 @@ p {
   color: white;
 }
 
-.artist {
+.index-artist {
   position: absolute;
   top: 40px;
   left: 10px;
   color: white;
   font-family: 'Lobster', cursive, serif;
+  text-shadow: 1px 1px 1px black;
 }
 
-.title {
+.index-title {
   position: absolute;
   top: 20px;
   left: 10px;
   color: white;
   font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 2px black;
+}
+
+.artist {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  color: white;
+  font-family: 'Lobster', cursive, serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+.title {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*
